@@ -1,0 +1,9 @@
+{
+  "name": "tdgdp",
+  "packageManager": "yarn@1.22.1",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "typescript": "^4.5.2"
+  },
+  "version": "0.0.0"
+}
