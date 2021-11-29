@@ -1,9 +1,20 @@
 {
   "name": "tdgdp",
-  "packageManager": "yarn@1.22.1",
+  "version": "2.3.0-0.1.0",
+  "description": "Teyvat Dev Genshin Data Parser",
+  "author": "Drew Hutton <Yoroshi> <drew.hutton@pm.me>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.10",
-    "typescript": "^4.5.2"
-  },
-  "version": "0.0.0"
+    "@types/yargs": "^17.0.7",
+    "ora": "^5.4.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2",
+    "yargs": "^17.2.1"
+  }
 }
