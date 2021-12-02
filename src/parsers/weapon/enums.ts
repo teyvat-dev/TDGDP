@@ -1,3 +1,5 @@
+// This file contains enums directly related to weapons.
+
 export enum WeaponType {
   Bow = 'WEAPON_BOW',
   Catalyst = 'WEAPON_CATALYST',

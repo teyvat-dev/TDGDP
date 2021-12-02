@@ -1,12 +1,20 @@
+import type { Config } from '../../global/types/config';
+
 import getReadbale from '../../global/helpers/getReadable';
 import getTextMapHash from '../../global/helpers/getTextMapHash';
-import type { Config } from '../../global/types/config';
+
 import { WeaponSubStatType, WeaponSubStatTypeClean, WeaponType, WeaponTypeClean } from './enums';
 import getWeaponDataIndex from './utils/getWeaponDataIndex';
 import parseAscensions from './utils/parseAscensions';
 import parsePassive from './utils/parsePassive';
 import parseStats from './utils/parseStats';
 
+/**
+ * The entrypoint parser for weapons.
+ *
+ * @param config Config object
+ * @returns the parsed weapon data
+ */
 const parse = async (config: Config) => {
   let parsedData = [];
   const weaponDataIndex = await getWeaponDataIndex();

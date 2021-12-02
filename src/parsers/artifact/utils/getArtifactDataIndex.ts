@@ -1,5 +1,6 @@
-// Dynamically imports and exports the weapons data.
-
+/**
+ * Dynamically imports and exports the artifact data.
+ */
 const getArtifactDataIndex = async () => ({
   equipAffixs: (await import('../../../../data/ExcelBinOutput/EquipAffixExcelConfigData.json')).default,
   reliquaryCodexs: (await import('../../../../data/ExcelBinOutput/ReliquaryCodexExcelConfigData.json')).default,

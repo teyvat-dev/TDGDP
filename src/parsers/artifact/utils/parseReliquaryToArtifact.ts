@@ -3,6 +3,13 @@ import { ArtifactType, ArtifactTypeClean } from '../enum';
 
 type ReliquaryConfigs = typeof import('../../../../data/ExcelBinOutput/ReliquaryExcelConfigData.json');
 
+/**
+ * Helper to parse Reliquary data to used Artifact data
+ *
+ * @param id the id of the artifact
+ * @param configs configs data
+ * @returns parsed artifact data
+ */
 const parseReliquaryToArtifact = (id: number, configs: ReliquaryConfigs) => {
   const artifact = configs.find(({ Id }) => id === Id);
   const type = ArtifactTypeClean[artifact.EquipType as ArtifactType];

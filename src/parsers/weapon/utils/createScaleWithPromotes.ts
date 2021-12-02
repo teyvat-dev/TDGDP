@@ -3,6 +3,15 @@ import calculateWeaponPromotionAdditinalBaseAtk from './calculateWeaponPromotion
 type weaponCurves = typeof import('../../../../data/ExcelBinOutput/WeaponCurveExcelConfigData.json');
 type weaponPromotes = typeof import('../../../../data/ExcelBinOutput/WeaponPromoteExcelConfigData.json');
 
+/**
+ * Same as scale but with additional ATK for promoted weapons
+ *
+ * @param initialValue the initial value of the scale
+ * @param growCurveType the curve type of the scale
+ * @param promotes promote data
+ * @param curves curve data
+ * @returns the scale with additional ATK for promoted weapons
+ */
 const createScaleWithPromotes = (
   initialValue: number,
   growCurveType: string,

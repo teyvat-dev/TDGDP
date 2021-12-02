@@ -2,6 +2,12 @@ import { existsSync } from 'fs';
 import { setCurrentLanguage } from './global/globals';
 import { Config } from './global/types/config';
 
+/**
+ * The main entry point for the application.
+ * Handles dynamic importing of the parser exporter and pre-configuration.
+ *
+ * @param config Config object
+ */
 const index = async (config: Config) => {
   if (!config.skipLocal) {
     const downloaded = existsSync('./data');

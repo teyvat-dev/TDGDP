@@ -2,6 +2,12 @@ import getTextMapHash from '../../../global/helpers/getTextMapHash';
 
 type equipAffixs = typeof import('../../../../data/ExcelBinOutput/EquipAffixExcelConfigData.json');
 
+/**
+ * Helper to parse passive skills of a weapon
+ *
+ * @param passives the passive skills of a weapon (equip affixs)
+ * @returns the parsed passive skills
+ */
 const parsePassive = (passives: equipAffixs) => {
   if (passives.length <= 0) {
     return null;

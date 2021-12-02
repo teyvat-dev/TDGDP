@@ -1,5 +1,6 @@
-import getTextMapHash from '../../global/helpers/getTextMapHash';
 import type { Config } from '../../global/types/config';
+
+import getTextMapHash from '../../global/helpers/getTextMapHash';
 
 import calculateLevelCurves from './utils/calculateLevelCurves';
 import getArtifactDataIndex from './utils/getArtifactDataIndex';
@@ -7,6 +8,12 @@ import parseArtifactPowerups from './utils/parseArtifactPowerups';
 import parseArtifactStatPossibilities from './utils/parseArtifactStatPossibilities';
 import parseReliquaryToArtifact from './utils/parseReliquaryToArtifact';
 
+/**
+ * The entrypoint parser for artifacts.
+ *
+ * @param config Config object
+ * @returns the parsed weapon data
+ */
 const artifacts = async (config: Config) => {
   const artifactDataIndex = await getArtifactDataIndex();
 

@@ -1,3 +1,5 @@
+// This file contains enums that are used throughout the application.
+
 export enum PropType {
   HP = 'FIGHT_PROP_HP',
   ATK = 'FIGHT_PROP_ATTACK',

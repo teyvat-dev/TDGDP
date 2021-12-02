@@ -4,6 +4,13 @@ const roundTo = (n: number, digits = 0) => {
   return (Math.round(n) / multiplicator).toFixed(digits);
 };
 
+/**
+ * Helper function to format a property value,
+ *
+ * @param value value to format (usually a float)
+ * @param propType type to format to
+ * @returns formatted value
+ */
 const formatPropValue = (
   value: number,
   propType: 'flat' | 'percent' | 'gamepercent',

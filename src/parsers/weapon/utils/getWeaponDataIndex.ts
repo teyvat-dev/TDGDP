@@ -1,5 +1,6 @@
-// Dynamically imports and exports the weapons data.
-
+/**
+ * Dynamically imports and exports the weapons data.
+ */
 const getWeaponDataIndex = async () => ({
   equipAffixs: (await import('../../../../data/ExcelBinOutput/EquipAffixExcelConfigData.json')).default,
   materialConfigs: (await import('../../../../data/ExcelBinOutput/MaterialExcelConfigData.json')).default,

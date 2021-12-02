@@ -5,6 +5,13 @@ import formatPropValue from './formatPropValue';
 type ReliquaryMainProps = typeof import('../../../../data/ExcelBinOutput/ReliquaryMainPropExcelConfigData.json');
 type ReliquaryAffixs = typeof import('../../../../data/ExcelBinOutput/ReliquaryAffixExcelConfigData.json');
 
+/**
+ * Parse and get the possible stats of an artifact
+ *
+ * @param mainProps mainprop data
+ * @param affixs affix data
+ * @returns possible stats and substats for each artifact type
+ */
 const parseArtifactStatPossibilities = (mainProps: ReliquaryMainProps, affixs: ReliquaryAffixs) => {
   const artifactTypesAndMainDepotId = [
     { type: 'SandsOfEon', depotId: 1000 },

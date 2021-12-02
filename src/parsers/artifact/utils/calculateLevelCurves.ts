@@ -5,6 +5,12 @@ const maxArtifactLevels = [4, 4, 12, 16, 20];
 
 type ReliquaryLevels = typeof import('../../../../data/ExcelBinOutput/ReliquaryLevelExcelConfigData.json');
 
+/**
+ * Calculates the level curves for all artifact properties.
+ *
+ * @param levels levels data
+ * @returns all level curves for all artifact properties (including exp)
+ */
 const calculateLevelCurves = (levels: ReliquaryLevels) => {
   const parsedLevels: {
     rank: number;

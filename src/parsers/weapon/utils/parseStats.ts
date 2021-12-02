@@ -5,6 +5,14 @@ type weaponPromotes = typeof import('../../../../data/ExcelBinOutput/WeaponPromo
 type weaponConfigs = typeof import('../../../../data/ExcelBinOutput/WeaponExcelConfigData.json');
 type weaponCurves = typeof import('../../../../data/ExcelBinOutput/WeaponCurveExcelConfigData.json');
 
+/**
+ * Helper to parse weapon stats (and sub stats)
+ *
+ * @param weaponProps the probs that the weapon has
+ * @param promotes promote data
+ * @param curves curve data
+ * @returns the parsed stats
+ */
 const parseStats = (
   weaponProps: weaponConfigs[0]['WeaponProp'],
   promotes: weaponPromotes,

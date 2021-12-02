@@ -1,3 +1,5 @@
+// This file contains enums directly related to artifacts.
+
 export enum ArtifactType {
   FlowerOfLife = 'EQUIP_BRACER',
   PlumeOfDeath = 'EQUIP_NECKLACE',

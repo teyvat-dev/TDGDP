@@ -31,6 +31,14 @@ This project can be used as a library however for now is not offically supported
 
 You are welcome to contribute to this project and I encourage you to!
 
+The code is heavily commented to help with understanding the content and hopefully making it easier to contribute
+
+You may need the following programs setup in your dev environment for the best experience.
+
+- [dprint](https://dprint.dev/) - Used for formatting (faster prettier)
+
 ## Disclaimers
 
 Most of the data is sourced by [Genshin Data](https://github.com/Dimbreath/GenshinData)
+
+I work on this project in my free time, it may or may not be kept up to date or have the features you desire at the time of your viewing and use of the project, you are welcome to contribute to the project or raise an issue to keep track of highly requested features.

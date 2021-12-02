@@ -4,6 +4,9 @@ import { promisify } from 'util';
 
 const execAsync = promisify(exec);
 
+/**
+ * Check for updates using git and offers to update if available
+ */
 const checkUpdate = async () => {
   try {
     await execAsync('git fetch', { cwd: './data' });

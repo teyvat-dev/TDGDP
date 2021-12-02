@@ -1,5 +1,14 @@
 type weaponPromotes = typeof import('../../../../data/ExcelBinOutput/WeaponPromoteExcelConfigData.json');
 
+/**
+ * Since the weapon's base atk is calculated by the formula:
+ * baseAtk = baseAtk + promoteLevel.addAtk
+ * we need to calculate the additional base atk of the weapon's promote level
+ *
+ * @param promotes the weapon promote data
+ * @param level the weapon level
+ * @returns the additional base atk
+ */
 const calculateWeaponPromotionAdditinalBaseAtk = (
   promotes: weaponPromotes,
   level: number,
