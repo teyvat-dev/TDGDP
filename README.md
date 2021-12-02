@@ -4,7 +4,7 @@ A extensible open source Genshin Data parser written in typescript.
 
 ## Getting Started / Requirements
 
-- `node (v16)` - Needed to run the project and its cli
+- `node (v16+)` - Needed to run the project and its cli
 - `yarn` - Package managment to install developer requirements
 - `git` - Required for downloading init data from Genshin Data
 
