@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktdgdp_docs=self.webpackChunktdgdp_docs||[]).push([[169],{7736:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/open-source","name":"open-source","count":1,"permalink":"/blog/tags/open-source"}')}}]);
