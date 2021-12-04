@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktdgdp_docs=self.webpackChunktdgdp_docs||[]).push([[447],{7118:function(t){t.exports=JSON.parse('{"allTagsPath":"/TDGDP/blog/tags","slug":"/TDGDP/blog/tags/teyvat-dev","name":"teyvat-dev","count":1,"permalink":"/TDGDP/blog/tags/teyvat-dev"}')}}]);

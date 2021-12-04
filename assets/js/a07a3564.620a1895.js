@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktdgdp_docs=self.webpackChunktdgdp_docs||[]).push([[363],{7778:function(s){s.exports=JSON.parse('{"allTagsPath":"/TDGDP/blog/tags","slug":"/TDGDP/blog/tags/open-source","name":"open-source","count":1,"permalink":"/TDGDP/blog/tags/open-source"}')}}]);

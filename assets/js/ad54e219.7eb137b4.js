@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktdgdp_docs=self.webpackChunktdgdp_docs||[]).push([[516],{9231:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/parsing","name":"parsing","count":1,"permalink":"/blog/tags/parsing"}')}}]);

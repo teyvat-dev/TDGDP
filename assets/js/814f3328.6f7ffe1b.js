@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktdgdp_docs=self.webpackChunktdgdp_docs||[]).push([[535],{5641:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Introducing TDGDP - What is it?","permalink":"/blog/intro-tdgdp"}]}')}}]);
