@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktdgdp_docs=self.webpackChunktdgdp_docs||[]).push([[563],{6122:function(s){s.exports=JSON.parse('{"allTagsPath":"/TDGDP/blog/tags","slug":"/TDGDP/blog/tags/parsing","name":"parsing","count":1,"permalink":"/TDGDP/blog/tags/parsing"}')}}]);

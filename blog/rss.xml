@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>TDGDP Blog</title>
-        <link>https://teyvat-dev.github.io/TDGDP/blog</link>
+        <link>https://tdgdp.teyvat.dev/blog</link>
         <description>TDGDP Blog</description>
         <lastBuildDate>Thu, 02 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Introducing TDGDP - What is it?]]></title>
-            <link>https://teyvat-dev.github.io/TDGDP/blog/intro-tdgdp</link>
+            <link>https://tdgdp.teyvat.dev/blog/intro-tdgdp</link>
             <guid>intro-tdgdp</guid>
             <pubDate>Thu, 02 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Hello everyone, this is my first blog post so I won't be very good at it however let's give it a shot.]]></description>
