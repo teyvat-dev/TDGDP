@@ -8,8 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 const config = {
   title: 'TDGDP',
   tagline: 'Genshin Data parsing for everyone',
-  // url: 'https://tdgdp.teyvat.dev',
-  url: 'https://teyvat-dev.teyvat.dev',
+  url: 'https://tdgdp.teyvat.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
