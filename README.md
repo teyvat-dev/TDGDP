@@ -21,7 +21,7 @@ yarn ts-node cli.ts --help
 
 ## Documentation
 
-TBA
+Extensive documentation for the project is located at [tdgdp.teyvat.dev](https://tdgdp.teyvat.dev)
 
 ## Use as a lib (for extending)
 

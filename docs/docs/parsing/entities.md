@@ -19,4 +19,9 @@ TBA
 
 #### List of To Do
 
-TBA
+- Characters
+- Food resources
+- Crafting resources
+- All resources (under review)
+- Domains
+- Books?
