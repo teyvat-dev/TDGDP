@@ -1,6 +1,6 @@
 {
   "name": "tdgdp",
-  "version": "2.3.0-0.1.0",
+  "version": "2.5.0-0.1.1",
   "description": "Teyvat Dev Genshin Data Parser",
   "author": "Drew Hutton <Yoroshi> <drew.hutton@pm.me>",
   "main": "dist/index.js",

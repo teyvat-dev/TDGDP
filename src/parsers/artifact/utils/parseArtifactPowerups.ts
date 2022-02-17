@@ -11,7 +11,8 @@ type ReliquaryPowerups = typeof import('../../../../data/ExcelBinOutput/Reliquar
  */
 const parseArtifactPowerups = (powerups: ReliquaryPowerups) => {
   const chances = calculatePercentageFromWeights(
-    powerups.map(({ PowerupWeight }) => PowerupWeight),
+    // powerups.map(({ PowerupWeight }) => PowerupWeight), // 2.5 removed this from the data so patching
+    [0.9, 0.09, 0.01],
   );
 
   return powerups.map(({ PowerupMultiple }, index) => ({

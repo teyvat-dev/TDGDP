@@ -23,9 +23,10 @@ const parseArtifactStatPossibilities = (mainProps: ReliquaryMainProps, affixs: R
 
   const mainStatChances = artifactTypesAndMainDepotId.map(({ depotId }) =>
     calculatePercentageFromWeights(
-      mainProps
-        .filter(({ PropDepotId }) => PropDepotId === depotId)
-        .map(({ Weight }) => Weight || 0),
+      // mainProps
+      //   .filter(({ PropDepotId }) => PropDepotId === depotId)
+      //   .map(({ Weight }) => Weight || 0), // Removed in 2.5 data, patched
+      [0]
     )
   );
 
@@ -95,18 +96,20 @@ const parseArtifactStatPossibilities = (mainProps: ReliquaryMainProps, affixs: R
 
   const possibeSubStatChances = artifactRarityAndSubDepotId.map(({ depotId }) =>
     calculatePercentageFromWeights(
-      affixs
-        .filter(({ DepotId }) => DepotId === depotId)
-        .map(({ Weight }) => Weight || 0),
+      // affixs
+      //   .filter(({ DepotId }) => DepotId === depotId)
+      //   .map(({ Weight }) => Weight || 0), // Removed in 2.5 data, patched
+      [0]
     )
   );
 
   const possibeSubStatUpgradeChances = artifactRarityAndSubDepotId.map(
     ({ depotId }) =>
       calculatePercentageFromWeights(
-        affixs
-          .filter(({ DepotId }) => DepotId === depotId)
-          .map(({ UpgradeWeight }) => UpgradeWeight || 0),
+        // affixs
+        //   .filter(({ DepotId }) => DepotId === depotId)
+        //   .map(({ UpgradeWeight }) => UpgradeWeight || 0), // Removed in 2.5 data, patched
+        [0]
       ),
   );
 
